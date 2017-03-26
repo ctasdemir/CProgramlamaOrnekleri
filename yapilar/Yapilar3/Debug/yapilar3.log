@@ -1,0 +1,19 @@
+﻿Build started 15.12.2016 10:15:18.
+     1>Project "D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\yapilar\Yapilar3\yapilar3.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (isaretciler-siralama.vcxproj, Yapilar1.vcxproj, Yapilar2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt main.c ogrenciKayit.c
+         ogrenciKayit.c
+     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\yapilar\yapilar3\ogrencikayit.c(5): warning C4013: 'memcpy' undefined; assuming extern returning int
+     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\yapilar\yapilar3\ogrencikayit.c(31): warning C4013: 'printf' undefined; assuming extern returning int
+         main.c
+     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\yapilar\yapilar3\main.c(22): warning C4013: 'ogrenci_ismi_kaydet' undefined; assuming extern returning int
+     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\yapilar\yapilar3\main.c(27): warning C4013: 'ogrenci_durum_kaydet' undefined; assuming extern returning int
+     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\yapilar\yapilar3\main.c(35): warning C4013: 'ogrenci_durum_yazdir' undefined; assuming extern returning int
+     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\yapilar\yapilar3\main.c(56): fatal error C1189: #error:  VERSIYON NO EKSIK
+         Generating Code...
+     1>Done Building Project "D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\yapilar\Yapilar3\yapilar3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.98
