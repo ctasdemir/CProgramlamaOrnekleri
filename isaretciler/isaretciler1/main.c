@@ -4,11 +4,11 @@
 */
 int main() {
 
-	int degisken1;
-	int degisken2;
+	int degisken1 = 0;
+	int degisken2 = 0;
 
-	int *pPointer1;
-	int *pPointer2;
+	int *pPointer1 = NULL;
+	int *pPointer2 = NULL;
 	
 
 	printf("degisken1 degiskeninin adresi %x\n", &degisken1);

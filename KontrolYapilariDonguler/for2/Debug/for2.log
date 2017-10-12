@@ -1,0 +1,6 @@
+﻿  main.c
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\kontrolyapilaridonguler\for2\main.c(12): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: see declaration of 'scanf'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\kontrolyapilaridonguler\for2\main.c(10): warning C4700: uninitialized local variable 'sinir' used
+  for2.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\KontrolYapilariDonguler\for2\Debug\for.exe
+  for2.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\KontrolYapilariDonguler\for2\Debug\for.pdb (Partial PDB)

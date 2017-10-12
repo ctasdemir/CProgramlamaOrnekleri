@@ -1,23 +1,12 @@
-﻿Build started 14.12.2016 12:01:25.
-     1>Project "D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\isaretciler\isaretciler4\pointer_aritmetik_2.vcxproj" on node 2 (Build target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (pointer_aritmetik2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
-         main.c
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(9): warning C4305: 'initializing': truncation from 'double' to 'float'
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(24): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'char *'
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(25): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(26): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'float *'
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(27): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'double *'
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(39): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'char *'
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(40): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(41): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'float *'
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(42): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'double *'
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-4.lib" /MACHINE:X86 Debug\main.obj
-         pointer_aritmetik_2.vcxproj -> D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-4.exe
-     1>Done Building Project "D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\isaretciler\isaretciler4\pointer_aritmetik_2.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.59
+﻿  main.c
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(24): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(25): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(26): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'float *'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(27): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double *'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(39): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(40): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(41): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'float *'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler4\main.c(42): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double *'
+  pointer_aritmetik_2.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-4.exe
+  pointer_aritmetik_2.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-4.pdb (Partial PDB)

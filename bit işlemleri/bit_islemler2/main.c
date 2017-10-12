@@ -21,12 +21,15 @@ http://www.phanderson.com/printer/bin_disp.html
 		sekizlik = 0;
 		bin_prnt_byte(sekizlik);
 		//4. biti SET etmek (2^4);
+		
 		sekizlik |= 16;
 		bin_prnt_byte(sekizlik);
+		
 		sekizlik = 0;
 		//4. biti SET etmek (1<<4 ==> 10000);
 		sekizlik |= (1 << 4);
 		bin_prnt_byte(sekizlik);
+
 		sekizlik = 255;
 		bin_prnt_byte(sekizlik);
 		//4. biti SIFIRLAMAK / RESET etmek 

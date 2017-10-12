@@ -1,0 +1,4 @@
+﻿  main.c
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\1-giris\printf\main.c(9): warning C4305: 'initializing': truncation from 'double' to 'float'
+  printf.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\1-Giris\Printf\Debug\printf.exe
+  printf.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\1-Giris\Printf\Debug\printf.pdb (Partial PDB)

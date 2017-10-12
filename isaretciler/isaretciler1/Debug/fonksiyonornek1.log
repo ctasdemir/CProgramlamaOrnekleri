@@ -1,17 +1,7 @@
-﻿Build started 14.12.2016 11:56:35.
-     1>Project "D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\isaretciler\isaretciler1\fonksiyonornek1.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
-         main.c
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler1\main.c(14): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler1\main.c(15): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler1\main.c(21): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler1\main.c(22): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-1.lib" /MACHINE:X86 Debug\main.obj
-         fonksiyonornek1.vcxproj -> D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-1.exe
-     1>Done Building Project "D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\isaretciler\isaretciler1\fonksiyonornek1.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:01.13
+﻿  main.c
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler1\main.c(14): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler1\main.c(15): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler1\main.c(21): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\isaretciler\isaretciler1\main.c(22): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+  fonksiyonornek1.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-1.exe
+  fonksiyonornek1.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-1.pdb (Partial PDB)

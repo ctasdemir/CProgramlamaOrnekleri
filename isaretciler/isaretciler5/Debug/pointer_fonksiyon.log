@@ -1,11 +1,3 @@
-﻿Build started 14.12.2016 12:16:40.
-     1>Project "D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\isaretciler\isaretciler5\pointer_fonksiyon.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
-         main.c
-     1>d:\dropbox\tei_egitim\ornekler\cprogramlamaornekleri\isaretciler\isaretciler5\main.c(21): error C2166: l-value specifies const object
-     1>Done Building Project "D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\isaretciler\isaretciler5\pointer_fonksiyon.vcxproj" (Build target(s)) -- FAILED.
-
-Build FAILED.
-
-Time Elapsed 00:00:00.15
+﻿  main.c
+  pointer_fonksiyon.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-referans.exe
+  pointer_fonksiyon.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\Debug\isaretciler-referans.pdb (Partial PDB)

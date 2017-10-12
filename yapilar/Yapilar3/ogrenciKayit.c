@@ -37,7 +37,6 @@ void ogrenci_durum_yazdir(ogrenci_t* pOgrenci)
 		printf("Durum: DURUM_NAKIL\n");
 		break;
 	default:
-
 		break;
 	}
 	

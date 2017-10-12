@@ -1,14 +1,2 @@
-﻿Build started 14.12.2016 15:03:41.
-     1>Project "D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\yapilar\Yapilar2\yapilar2.vcxproj" on node 2 (Build target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (isaretciler-siralama.vcxproj, Yapilar1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
-         main.c
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\Yapilar2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\Yapilar2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\Yapilar2.lib" /MACHINE:X86 Debug\main.obj
-         yapilar2.vcxproj -> D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\Debug\Yapilar2.exe
-     1>Done Building Project "D:\Dropbox\TEI_EGITIM\Ornekler\CprogramlamaOrnekleri\yapilar\Yapilar2\yapilar2.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.47
+﻿  main.c
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\yapilar\yapilar2\main.c(1): fatal error C1083: Cannot open include file: 'stdio.h': No such file or directory

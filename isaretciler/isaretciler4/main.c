@@ -21,10 +21,10 @@ int main() {
 	pPointer_double = &degisken_double;
 
 
-	printf("char degiskeninin adresi %x\n", pPointer_char);
-	printf("int degiskeninin adresi %x\n", pPointer_int);
-	printf("float degiskeninin adresi %x\n", pPointer_float);
-	printf("double degiskeninin adresi %x\n", pPointer_double);
+	printf("char degiskeninin adresi %d\n", pPointer_char);
+	printf("int degiskeninin adresi %d\n", pPointer_int);
+	printf("float degiskeninin adresi %d\n", pPointer_float);
+	printf("double degiskeninin adresi %d\n", pPointer_double);
 	
 	printf("char degiskeninin boyutu %d\n", sizeof(degisken_char));
 	printf("int degiskeninin boyutu %d\n", sizeof(degisken_int));
@@ -36,10 +36,10 @@ int main() {
 	pPointer_float++;
 	pPointer_double++;
 
-	printf("char degiskeninin adresi %x\n", pPointer_char);
-	printf("int degiskeninin adresi %x\n", pPointer_int);
-	printf("float degiskeninin adresi %x\n", pPointer_float);
-	printf("double degiskeninin adresi %x\n", pPointer_double);
+	printf("char degiskeninin adresi %d\n", pPointer_char);
+	printf("int degiskeninin adresi %d\n", pPointer_int);
+	printf("float degiskeninin adresi %d\n", pPointer_float);
+	printf("double degiskeninin adresi %d\n", pPointer_double);
 
 
 	return 0;

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{02B84294-0359-470C-900A-A12DA5E3E9E5}</ProjectGuid>
+    <ProjectGuid>{C326BE93-D4D3-4FA0-9EBF-A901A213D0CE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ConsoleApplication1</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
