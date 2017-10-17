@@ -1,13 +1,17 @@
+/*******************************************************************************************
+C PROGRAMLAMA EÐÝTÝMÝ - COÞKUN TAÞDEMÝR
+
+YAPILAR (STRUCT) - 4
+
+Yapýlarý dizi þeklinde tanýmlama ve kullanma
+
+********************************************************************************************/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdint.h>
 #include "typedefs.h"
 
-#define VERSIYON_PRO
-
-//#define VERSIYON_NO 12
-
-#define DEBUG
 
 int main() {
 	int32_t i = 0;
@@ -20,16 +24,6 @@ int main() {
 		ogrenciler[i].durum = DURUM_KAYITLI;
 	}
 
-#ifdef DEBUG
-	printf("debug amacli");
-#endif
-	
-	ogrenci_ismi_kaydet(&ogrenciler[0], "ali", 4);
-	ogrenci_ismi_kaydet(&ogrenciler[1], "veli", 5);
-	ogrenci_ismi_kaydet(&ogrenciler[2], "mehmet", 7);
-	ogrenci_ismi_kaydet(&ogrenciler[3], "ahmet", 6);
-
-	ogrenci_durum_kaydet(&ogrenciler[0], DURUM_MEZUN);
 
 	for (i = 0; i < 10; i++)
 	{
@@ -39,24 +33,9 @@ int main() {
 		ogrenci_durum_yazdir(&ogrenciler[i]);
 	}
 	
-	//printf("sizeof:%d\n", sizeof(ogrenciler));
 	
 	return 0;
 }
 
 
 
-#ifdef VERSIYON_PRO
-
-void ogrenci_arama(ogrenci_t *pOgrenci)
-{
-
-}
-#endif
-/*
-#ifndef VERSIYON_NO
-
-#error VERSIYON NO EKSIK
-
-
-#endif*/

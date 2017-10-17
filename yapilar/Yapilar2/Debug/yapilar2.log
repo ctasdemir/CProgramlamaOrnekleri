@@ -1,2 +1,4 @@
 ﻿  main.c
-d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\yapilar\yapilar2\main.c(1): fatal error C1083: Cannot open include file: 'stdio.h': No such file or directory
+d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\yapilar\yapilar2\main.c(23): warning C4305: '=': truncation from 'double' to 'float'
+  yapilar2.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\Debug\Yapilar2.exe
+  yapilar2.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\Debug\Yapilar2.pdb (Partial PDB)
