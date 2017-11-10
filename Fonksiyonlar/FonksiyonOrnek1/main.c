@@ -86,11 +86,11 @@ ortalamasýný döndürür
 */
 float calculate_average(int num1, int num2, int num3)
 {
-	float ortalama = 0.0; // lokal deðiþken
+	float average = 0.0; // lokal deðiþken
 
-	ortalama = (num1 + num2 + num3) / 3.0;
+	average = (num1 + num2 + num3) / 3.0;
 
-	return ortalama;
+	return average;
 
 }
 
