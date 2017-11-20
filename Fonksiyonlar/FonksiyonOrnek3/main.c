@@ -1,7 +1,7 @@
 /*******************************************************************************************
 C PROGRAMLAMA EÐÝTÝMÝ - COÞKUN TAÞDEMÝR
 
-Fonksiyonlar - 2
+Fonksiyonlar - 3
 Deðer geçerek çaðýrma (Call-by-value)
 
 Fonksiyonlara parametreler deðerle çaðýrma ile  geçildiðinde

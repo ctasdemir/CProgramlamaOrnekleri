@@ -1,53 +1,34 @@
 /*******************************************************************************************
 C PROGRAMLAMA EÐÝTÝMÝ - COÞKUN TAÞDEMÝR
 
-Fonksiyonlar - 4
-Kapsam ve Taným Aralýðý Kavramlarý (Scope and Storage)
+Fonksiyonlar - 2
+Adres geçerek çaðýrma (Call-by-reference)
 
-Global Deðiþkenler
-Lokal Deðiþkenler 
-
-Statik Deðiþkenler
-Otomatik Deðiþkenler
+Fonksiyonlara parametreler adres çaðýrma ile  geçildiðinde
+deðiþkenlerin adresleri fonksiyona iletilir.  Fonksiyon
+içerisinde bu deðiþkenlerle iþlem yapýldýðýnda deðiþkenleri deðerleri deðiþir.
 
 ********************************************************************************************/
+
 #include <stdio.h>
-#include <stdint.h>
 
-int a, b; // global deðiþkenler
 
-void function();
+void call_by_reference(int *y);
 
-int main()
-{
-	/*
-	   sayi1, sayi2, ondalik deðiþkenleri lokal deðiþkenlerdir. Sadece
-	   main() fonksiyonu içerisinde tanýmlýdýrlar. Baþka bir fonksiyondan bu deðiþkenlere
-	   eriþilemez.
-	*/
-	int sayi1 = 10;
-	int sayi2 = 3;
-	float ondalik = 1.34567;
-	
-	printf("sayi1=%d \n", sayi1);
-	printf("sayi2=%d \n", sayi2);
+int main() {
+	int b = 10;
 
-	function();
-	function();
-	function();
+	printf("fonksiyon cagrisindan once b = %d .\n", b);
+		call_by_reference(&b);
+	printf(" fonksiyon cagrisindan sonra b = %d \n", b);
 
 	return 0;
 }
 
-void function()
+
+void call_by_reference(int *y)
 {
-	static int fonk_statik_deg1 = 20; // lokal statik deðiþken
-	int fonk_deg2 = 0;// lokal otomatik deðiþken
-
-	printf("fonk_statik_deg1=%d\n", fonk_statik_deg1);
-	printf("fonk_deg2=%d\n", fonk_deg2);
-	fonk_statik_deg1++;
-	fonk_deg2++;
-
-	return;
+	printf("10 eklemeden once y = %d.\n", *y);
+	(*y) += 10;
+	printf("10 ekledikten sonra y = %d \n", *y);
 }

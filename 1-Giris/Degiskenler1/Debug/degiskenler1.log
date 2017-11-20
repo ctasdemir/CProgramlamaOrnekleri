@@ -1,3 +1,0 @@
-﻿  main.c
-d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\1-giris\degiskenler1\main.c(20): error C2065: 'b': undeclared identifier
-d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\1-giris\degiskenler1\main.c(10): warning C4305: 'initializing': truncation from 'double' to 'float'

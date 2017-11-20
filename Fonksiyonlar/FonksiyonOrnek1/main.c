@@ -10,10 +10,9 @@ Fonksiyon Çaðýrma (Call)
 #include <stdio.h>
 #include <stdint.h>
 
-// Fonksiyon Prototipleri (Bildirimleri)
-int find_max_number(int num1, int num2, int num3);
-float calculate_average(int num1, int num2, int num3);
-void print_to_screen(void);
+int maximum_sayi_dondur(int sayi1, int sayi2, int sayi3);
+float ortalamaHesapla(int sayi1, int sayi2, int sayi3);
+void ekranaYazdir(void);
 
 int main()
 {
@@ -26,84 +25,50 @@ int main()
 	printf("3 tam sayi giriniz:");
 	scanf("%d%d%d", &a, &b, &c);
 
-	/* maximum_sayi_dondur fonksiyonuna a,b,c deðerleri
-	 parametre olarak geçiliyor. Fonksiyonun döndürdüðü deðer
-	 maks deðiþkenine atanýyor
-	*/
-	maks = find_max_number(a, b, c);
+	maks = maximum_sayi_dondur(a, b, c);
 	printf("Maksimum sayi:%d\n", maks);
 
-	ort = calculate_average(a, b, c);
+	ort = ortalamaHesapla(a, b, c);
 	printf("Ortalamalari:%f\n", ort);
 	
-	print_to_screen();
+	ekranaYazdir();
 
 	return 0;
 }
 
-/* 
-   Fonksiyon Tanýmlama
 
-   Fonksiyonun Döndürdüðü deðer tipi : int
-   Fonksiyonun ismi: find_max_number
-   Fonksiyonun Parametreleri:
-   1. Parametre : ismi num1 Tipi int
-   2. Parametre : ismi num2 Tipi int
-   3. Parametre : ismi num3 Tipi int
-
-   Bu fonksiyon kendisine parametre olarak verilen 3 sayýnýn
-   en büyüðünü döndürür
-*/
-int find_max_number(int num1, int num2, int num3)
+int maximum_sayi_dondur(int sayi1, int sayi2, int sayi3)
 {
-	int maksimum = num1;
+	int maksimum = sayi1;
 
-	if(num2 > maksimum)
+	if(sayi2 > maksimum)
 	{
-		maksimum = num2;
+		maksimum = sayi2;
 	}
 
-	if( num3 > maksimum)
+	if( sayi3 > maksimum)
 	{ 
-		maksimum = num3;
+		maksimum = sayi3;
 	}
 
 	return maksimum;
 }
 
-
-/*
-
-Fonksiyonun ismi: calculate_average
-Fonksiyonun Döndürdüðü deðer tipi : float
-Fonksiyonun Parametreleri:
-1. Parametre : ismi num1 Tipi int
-2. Parametre : ismi num2 Tipi int
-3. Parametre : ismi num3 Tipi int
-
-Bu fonksiyon kendisine parametre olarak verilen 3 sayýnýn
-ortalamasýný döndürür
-*/
-float calculate_average(int num1, int num2, int num3)
+float ortalamaHesapla(int sayi1, int sayi2, int sayi3)
 {
-	float average = 0.0; // lokal deðiþken
-
-	average = (num1 + num2 + num3) / 3.0;
-
-	return average;
+	float ortalama = 0.0;
+	ortalama = (sayi1 + sayi2 + sayi3) / 3.0;
+	return ortalama;
 
 }
 
-/*
 
-Fonksiyonun ismi: ekrana_yazdir
-Fonksiyon Deðer döndürmüyor : void 
-Fonksiyonun Parametre almýyor
-
-Bu fonksiyon ekrana "fonksiyon ornegi" yazdirir.
-*/
-void print_to_screen(void)
+void ekranaYazdir(void)
 {
 	printf("fonksiyon ornegi\n");
 	return;
+
+	printf("return sonrasi\n");
+	return;
+
 }

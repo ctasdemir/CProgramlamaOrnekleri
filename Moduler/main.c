@@ -25,6 +25,7 @@ int main()
 		temp_sensor_power_on();
 		sicaklik = temp_sensor_get_temp();
 		temp_sensor_power_off();
+
 		lcd_driver_print(sicaklik);
 		
 		if(sicaklik > 25.0)

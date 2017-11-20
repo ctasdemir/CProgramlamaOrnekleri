@@ -2,33 +2,65 @@
 C PROGRAMLAMA EÐÝTÝMÝ - COÞKUN TAÞDEMÝR
 
 Fonksiyonlar - 2
-Adres geçerek çaðýrma (Call-by-reference)
-
-Fonksiyonlara parametreler adres çaðýrma ile  geçildiðinde
-deðiþkenlerin adresleri fonksiyona iletilir.  Fonksiyon
-içerisinde bu deðiþkenlerle iþlem yapýldýðýnda deðiþkenleri deðerleri deðiþir.
+Fonksiyon içerisinden fonksiyon çaðýrma
 
 ********************************************************************************************/
-
 #include <stdio.h>
+#include <stdint.h>
 
+// Fonksiyon Prototipleri (Bildirimleri)
+int function_1(int par1);
+int function_2(int par1);
+int function_3(int par1);
 
-void call_by_reference(int *y);
-
-int main() {
-	int b = 10;
-
-	printf("fonksiyon cagrisindan once b = %d .\n", b);
-		call_by_reference(&b);
-	printf(" fonksiyon cagrisindan sonra b = %d \n", b);
+int main()
+{
+	
+	function_1(1);
 
 	return 0;
 }
 
+/* 
+   Fonksiyon Tanýmlama
 
-void call_by_reference(int *y)
+   Fonksiyonun Döndürdüðü deðer tipi : int
+   Fonksiyonun ismi: function_1
+   Fonksiyonun Parametreleri:
+   1. Parametre : ismi par1 Tipi int
+*/
+int function_1(int par1)
 {
-	printf("10 eklemeden once y = %d.\n", *y);
-	(*y) += 10;
-	printf("10 ekledikten sonra y = %d \n", *y);
+	printf("fonksiyon 1, %d argumani ile cagrýldý\n", par1);
+	
+	function_2(par1 + 1);
+	return 0;
 }
+/*
+
+Fonksiyonun Döndürdüðü deðer tipi : int
+Fonksiyonun ismi: function_2
+Fonksiyonun Parametreleri:
+1. Parametre : ismi par1 Tipi int
+*/
+int function_2(int par1)
+{
+	printf("fonksiyon 2, %d argumani ile cagrýldý\n", par1);
+
+	function_3(par1 + 1);
+	return 0;
+}
+
+/*
+Fonksiyonun Döndürdüðü deðer tipi : int
+Fonksiyonun ismi: function_3
+Fonksiyonun Parametreleri:
+1. Parametre : ismi par1 Tipi int
+*/
+int function_3(int par1)
+{
+	printf("fonksiyon 3, %d argumani ile cagrýldý\n", par1);
+
+	return 0;
+}
+

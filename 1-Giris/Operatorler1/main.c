@@ -15,8 +15,9 @@ int main()
 	printf("bolme=%d \n", sayi1 / sayi2);
 	printf("mod=%d \n", sayi1 % 3);
 	printf("artirma=%d \n", sayi1++);
+	printf("sayi1=%d \n", sayi1);
 	printf("azaltma=%d \n", sayi1--);
-
+	printf("sayi1=%d \n", sayi1);
 	return 0;
 }
 

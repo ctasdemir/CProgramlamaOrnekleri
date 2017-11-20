@@ -66,6 +66,8 @@ Thumbs.db
 *.cache
 *.ilk
 *.log
+*.ipch
+*.db
 [Bb]in
 [Dd]ebug*/
 *.sbr

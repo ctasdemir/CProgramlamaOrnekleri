@@ -33,13 +33,15 @@ int main()
 	}
 
 	printf("for dongusu\n");
-	for (i = 0; i < 20; i++)
-	{
-		if (i == 7)
+	while (1) {
+		for (i = 0; i < 20; i++)
 		{
-			break;
+			if (i == 7)
+			{
+				break;
+			}
+			printf("%d DONGU\n", i);
 		}
-		printf("%d DONGU\n", i);
 	}
 
 

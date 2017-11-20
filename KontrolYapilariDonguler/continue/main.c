@@ -37,7 +37,9 @@ int main()
 	{
 		if (i == 7)
 		{
+			printf("continue");
 			continue;
+			
 		}
 		printf("%d DONGU\n", i);
 	}
