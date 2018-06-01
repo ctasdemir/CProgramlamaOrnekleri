@@ -1,5 +1,0 @@
-﻿  main.c
-d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\1-giris\degiskenler2\main.c(11): warning C4305: 'initializing': truncation from 'double' to 'float'
-d:\dropbox\eğitimler\eğitim İçerikleri\c programlama eğitimi\ornekler\cprogramlamaornekleri\1-giris\degiskenler2\main.c(28): warning C4700: uninitialized local variable 'fonk_deg2' used
-  degiskenler2.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\1-Giris\Degiskenler2\Debug\Degiskenler2.exe
-  degiskenler2.vcxproj -> D:\Dropbox\Eğitimler\Eğitim İçerikleri\C Programlama Eğitimi\Ornekler\CprogramlamaOrnekleri\1-Giris\Degiskenler2\Debug\Degiskenler2.pdb (Partial PDB)

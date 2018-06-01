@@ -42,7 +42,7 @@ int main()
 void function()
 {
 	static int fonk_statik_deg1 = 20; // lokal statik deðiþken
-	int fonk_deg2 = 0;// lokal otomatik deðiþken
+	int fonk_deg2 = 20;// lokal otomatik deðiþken
 
 	printf("fonk_statik_deg1=%d\n", fonk_statik_deg1);
 	printf("fonk_deg2=%d\n", fonk_deg2);

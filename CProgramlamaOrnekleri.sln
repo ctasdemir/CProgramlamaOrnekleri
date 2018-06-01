@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pointers", "Pointers", "{E2065AD3-3603-479E-8F56-74D506617137}"
 EndProject
@@ -92,6 +92,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "break", "KontrolYapilariDonguler\break\break.vcxproj", "{7EB138AF-A5C1-46FC-8E03-1B741EAD39EB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "continue", "KontrolYapilariDonguler\continue\continue.vcxproj", "{C4F83AA4-2E2F-4E0E-9AD7-6EA408931769}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Yapilar6", "yapilar\Yapilar6\yapilar6.vcxproj", "{E8990763-5456-41FF-A789-A2E2140E0382}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -405,6 +407,14 @@ Global
 		{C4F83AA4-2E2F-4E0E-9AD7-6EA408931769}.Release|x64.Build.0 = Release|x64
 		{C4F83AA4-2E2F-4E0E-9AD7-6EA408931769}.Release|x86.ActiveCfg = Release|Win32
 		{C4F83AA4-2E2F-4E0E-9AD7-6EA408931769}.Release|x86.Build.0 = Release|Win32
+		{E8990763-5456-41FF-A789-A2E2140E0382}.Debug|x64.ActiveCfg = Debug|x64
+		{E8990763-5456-41FF-A789-A2E2140E0382}.Debug|x64.Build.0 = Debug|x64
+		{E8990763-5456-41FF-A789-A2E2140E0382}.Debug|x86.ActiveCfg = Debug|Win32
+		{E8990763-5456-41FF-A789-A2E2140E0382}.Debug|x86.Build.0 = Debug|Win32
+		{E8990763-5456-41FF-A789-A2E2140E0382}.Release|x64.ActiveCfg = Release|x64
+		{E8990763-5456-41FF-A789-A2E2140E0382}.Release|x64.Build.0 = Release|x64
+		{E8990763-5456-41FF-A789-A2E2140E0382}.Release|x86.ActiveCfg = Release|Win32
+		{E8990763-5456-41FF-A789-A2E2140E0382}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -448,5 +458,9 @@ Global
 		{8CEFE99C-1DDD-4E01-8B18-00A96D951883} = {1A48A267-FA5D-4422-84EF-F386D5DC5F64}
 		{7EB138AF-A5C1-46FC-8E03-1B741EAD39EB} = {1A48A267-FA5D-4422-84EF-F386D5DC5F64}
 		{C4F83AA4-2E2F-4E0E-9AD7-6EA408931769} = {1A48A267-FA5D-4422-84EF-F386D5DC5F64}
+		{E8990763-5456-41FF-A789-A2E2140E0382} = {6EBD8DEE-6968-4C15-A481-F0BF736C096C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DA4555B-9B6D-4E53-9A2B-7AE3E82FC67D}
 	EndGlobalSection
 EndGlobal

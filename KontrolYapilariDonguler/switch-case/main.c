@@ -42,6 +42,7 @@ int main()
 			printf("yanlis secim!\n");
 			break;
 		}
+	
 	}
 
 	return 0;

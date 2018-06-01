@@ -8,7 +8,7 @@ int main()
 	int number2 = 3543;
 
 	printf("2 sayi giriniz:\n");
-	scanf("%d%d", &number1, &number2);
+	scanf("%d %d", &number1, &number2);
 
 	printf("Sayi1=%d Sayi2=%d Toplamlari=%d\n", number1, number2, number1 + number2);
 	
