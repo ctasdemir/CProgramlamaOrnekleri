@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "motor_kontrol.h"
 
+
 void motor_driver_init()
 {
 	printf("motor init OK\n");

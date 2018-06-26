@@ -11,6 +11,8 @@
 
 #ifndef __MOTOR_DRIVER
 #define __MOTOR_DRIVER
+#include "sicaklik_sensor.h"
+
 
 void motor_driver_init();
 void motor_driver_start();

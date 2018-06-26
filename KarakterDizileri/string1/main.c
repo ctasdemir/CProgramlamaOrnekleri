@@ -9,8 +9,8 @@ int main() {
 	char string[] = "C KARAKTER DIZISI";
 
 	printf("String: %s\n", string);
-	printf("sizeof(string):%d", sizeof(string));
-	printf("String boyutu:%d", strlen(string));
+	printf("sizeof(string):%d\n", sizeof(string));
+	printf("String boyutu:%d\n", strlen(string));
 
 	return 0;
 }

@@ -4,6 +4,8 @@
 #include "sicaklik_sensor.h"
 #include "ekran.h"
 
+#define KART2
+
 
 
 void delay(void);
@@ -22,6 +24,7 @@ int main()
 	
 	while(1)
 	{
+
 		temp_sensor_power_on();
 		sicaklik = temp_sensor_get_temp();
 		temp_sensor_power_off();
@@ -41,7 +44,7 @@ int main()
 }
 
 
-
+#ifdef KART1
 void delay()
 {
 	uint64_t i = 0;
@@ -51,3 +54,21 @@ void delay()
 		
 	}
 }
+#endif
+
+#ifdef KART2
+void delay()
+{
+	uint64_t i = 0;
+
+	for (i = 0; i<5000000000; i++)
+	{
+
+	}
+}
+
+
+
+
+
+#endif

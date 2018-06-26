@@ -17,6 +17,7 @@ Bit SET ve RESET iþlemleri
 		
 		sekizlik = 0;
 		print_binary_byte(sekizlik);
+
 		//4. biti SET etmek (2^4);
 		
 		sekizlik |= 16;
